@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jun  05 19:23:06 2020
+
+@author: KartikeyaThakur
+"""
+
 import yfinance as yf
 import pandas as pd
 import matplotlib.pyplot as plt
