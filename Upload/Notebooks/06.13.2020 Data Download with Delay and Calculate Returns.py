@@ -200,7 +200,7 @@ for i in tickers.index.values:
             if coronaVirus['Close'][coronaVirus.index.values[-1]]/coronaVirus['Close'][0] <= 0.1:
                 coronaTenth.append(symbol)
         
-f = open(homeDir + "Output/" + datePerformed + "/Returns " + index + " " + str(datetime.now()).replace(':','-')[:19] + ".csv", 'w+')
+f = open(homeDir + "/Output/" + datePerformed + "/Returns " + index + " " + str(datetime.now()).replace(':','-')[:19] + ".csv", 'w+')
 f.write(returns)
 f.close()
 
